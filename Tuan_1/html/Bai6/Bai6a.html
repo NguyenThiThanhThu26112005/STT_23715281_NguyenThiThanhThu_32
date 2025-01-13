@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6a</title>
+    <style>
+
+        .title_form{
+            display: block;
+            margin: auto;
+            width: 250px;
+            border-radius: 16px;
+            background-color: #00feff;
+            box-shadow: 7px 7px rgb(146, 166, 190);
+            text-align: center;
+            border: 2px solid #333;
+            font-family: "KGNoRegretsSolid";
+            font-size: 20px;
+            font-weight: 500;
+            border-bottom: 4px solid #333;
+        }
+        .title_form hr{
+            border: 3px solid black;
+        }
+        .img_form {
+            width: 60px;
+            margin-top: 3px;
+            margin-left: 0px;
+            position: absolute;
+            object-fit: cover;
+        }
+        .img_form  img {
+        width: 100%;
+        text-align: left;
+        }
+
+
+
+        form{
+            
+            background-color: rgb(89, 193, 249);
+            margin-left:20px ;
+        }
+        .content{
+            margin: 40px;
+        }
+        .title{
+            text-align:center;
+        }
+        input{
+            background-color: white;
+            margin-bottom: 5px;
+        }
+        textarea{
+            background-color: white;
+            margin-bottom: 5px;
+        }
+        select{
+            background-color: white;
+            margin-bottom: 5px;
+        }
+        .click{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <form action="" >
+        <div class="title_form">
+                <div class="img_form">
+                    <img src="logonot.png" alt="logonot" />
+                    
+                </div>
+            <p>Jackson</p>
+            <hr>
+            <p>Electronics</p>
+        </div>
+
+        <div class="title">
+            <h1>Registration Form</h1>
+            <p>Register your Jackson Electronics product here</p>
+        </div>
+
+        <div class="content">
+            First Name:
+            <input type="text" name="firstname" style="margin-left:116px">
+            Last Name:
+            <input type="text" name="lastname"><br>
+            Address #1:
+            <input type="text" size="30" style="margin-left:116px"><br>
+            Address #2:
+            <input type="text" size="30" style="margin-left:116px"><br>
+            City:
+            <input type="text"  style="margin-left:161px">
+            State:
+            <input type="text" size="5">
+            Zip:
+            <input type="text" size="5"><br>
+            Country:
+            <input type="text" style="margin-left:136px"> <br>
+            <hr>
+            Product:
+            <select name="Product"style="margin-left:140px" >
+                <option value="1">ScanMaster</option>
+                <option value="2">ScanMaster II</option>
+                <option value="3">LaserPrint 1000</option>
+                <option value="4">LaserPrint 5000</option>
+                <option value="5">Print/Scan 150</option>
+                <option value="6">Print/Scan 250</option>
+
+            </select> <br>
+            Date Purchased:
+            <input type="text" style="margin-left:90px"><br>
+            Serial#:
+            <input type="text" style="margin-left:145px"><br>
+            Used for:
+            <input type="radio" name="" value="Home" style="margin-left:136px">Home  
+            <input type="radio" name="" value="Education Institution"style="margin-left:115px" >Education Institution <br>
+            <input type="radio" name="" value="Business" style="margin-left:200px">Business  
+            <input type="radio" name="" value="Other"style="margin-left:98px">Other <br>
+            <input type="radio" name="" value="Govermment"style="margin-left:200px">Govermment <br>
+            System (check all that apply):
+            <input type="checkbox" name="" value="Windows" style="margin-left:5px">Windows 
+            <input type="checkbox" name="" value="Macintosh" style="margin-left:96px">Macintosh <br>
+            <input type="checkbox" name="" value="UNIX" style="margin-left:200px">UNIX 
+            <input type="checkbox" name="" value="Other" style="margin-left:117px">Other <br>
+            <hr>
+            Comments?:
+            <textarea name="Comment" rows="4" cols="50" style="margin-left:120px"></textarea> <br>
+            <div class="click">
+                <input type="Submit" value="Click to register">
+                <input type="reset" value="Click to cancel">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
